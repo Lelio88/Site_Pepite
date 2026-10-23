@@ -11,7 +11,7 @@ Résolvez les problèmes sans introduire de régression ni de dette technique ar
 
 **Modèle** : site statique pur (HTML/CSS, aucun build, aucun JavaScript), servi par GitHub Pages depuis la racine de `main`. **Détails** : ce fichier suffit.
 
-- `index.html` — accueil ; `confidentialite.html`, `cgu.html`, `mentions-legales.html` — pages légales
+- `index.html` — accueil ; `confidentialite.html`, `suppression-donnees.html` (exigée par Meta : comment supprimer ses données et retirer l'accès), `cgu.html`, `mentions-legales.html` — pages légales
 - `legal.css` — feuille commune (thème sombre orange) ; `icone.png` — icône de Pépite (copie de `Pepite/packaging/pepite.png`)
 - `CNAME` — `pepite.heianenterprise.com` (enregistrement DNS CNAME vers `lelio88.github.io`, « DNS only », chez Cloudflare)
 
