@@ -52,6 +52,11 @@ footer { margin-top: 12px; color: var(--faint); font-size: 13px; text-align: cen
 .atouts { list-style: none; padding: 0; margin: 20px 0 0; }
 .atouts li { margin: 14px 0; padding-left: 30px; position: relative; }
 .atouts li::before { content: "◆"; position: absolute; left: 0; top: 0; color: var(--accent); }
+.capture { margin: 28px 0 0; }
+.capture img { display: block; width: 100%; height: auto; border: 1px solid var(--border); border-radius: 12px; }
+.capture figcaption { color: var(--faint); font-size: 14px; margin-top: 8px; text-align: center; }
+.etapes { padding-left: 22px; }
+.etapes li::marker { color: var(--accent); font-weight: 600; }
 
 @media (max-width: 520px) {
   .wrap { padding: 40px 16px 64px; }
